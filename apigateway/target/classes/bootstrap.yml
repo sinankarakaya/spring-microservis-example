@@ -1,0 +1,9 @@
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: apigateway
+  cloud:
+    config:
+      profile: native
+      uri: http://localhost:8082
