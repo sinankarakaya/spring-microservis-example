@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: apigateway
+  cloud:
+    gateway:
+      routes:
+      - id: profileservice
+        uri: http://localhost:8083/
+        predicates:
+        - Path=/profileservice/**
+
