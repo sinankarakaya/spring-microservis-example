@@ -29,6 +29,7 @@
   	<module>apigateway</module>
   	<module>hystrix-dashboard</module>
     <module>authserver</module>
+      <module>userservice</module>
   </modules>
 
   <dependencies>

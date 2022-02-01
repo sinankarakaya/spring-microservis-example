@@ -7,3 +7,6 @@ spring:
     config:
       profile: native
       uri: http://localhost:8082
+
+jwt:
+  secret: BCFB4F4479EDC8599928D44911E67985FE8EB9223950E1D628DBA3B1036F2114
